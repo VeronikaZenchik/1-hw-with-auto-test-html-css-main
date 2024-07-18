@@ -41,10 +41,12 @@ header span {
 .main-section .wrapper {
   display: flex;
   align-items: center;
+  gap: 70px;
 }
 
 .text-wrapper {
   max-width: 420px;
+  
 }
 
 .main-title {
@@ -60,6 +62,7 @@ header span {
 
 .main-image {
   max-width: 715px;
+  
 }
 
 .about-section {
@@ -102,18 +105,18 @@ select:hover,
 }
 
 .frameworks,
-.books {
+.food {
   min-width: 50%;
 }
 
-.frameworks-list,
-.books-list {
+.books-list,
+.food-list {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.frameworks-list {
+.books-list {
   font-weight: 400;
   font-size: 16px;
   list-style-image: url(./solar_map-arrow-up-bold.svg);
@@ -131,7 +134,7 @@ select:hover,
   gap: 20px;
 }
 
-.books-list {
+.food-list {
   font-weight: 400;
   font-size: 16px;
   padding-left: 20px;
